@@ -4,7 +4,7 @@ let chalk = require('chalk')
 global.Owner = {
     // use the phone number with the country code, for example Indonesia '62' America '1' etc
     '6281617247994': { // 6281649370524
-        name: '𝗡𝗮𝗻𝗮𝘁 𝗦𝘁𝗼𝗿𝗲',
+        name: 'Nanat Store',
         isReport: true, // if true this number will send if user use command /report or /join
         isCreator: true, // if true this number will send if user use command /owner or /creator
         isDev: true
@@ -12,19 +12,19 @@ global.Owner = {
 }
 global.ext = {
 	title: 'Sabar sedang di proses',
-	body: '𝗡𝗮𝗻𝗮𝘁-𝗕𝗢𝗧𝗭',
+	body: 'Nanat-botz',
 	thum: 'https://telegra.ph/file/5859353a380d9b67be198.jpg'
 }
 global.mods = ['6283897390164'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.DeveloperMode = 'false' // true or false
 global.linkGC = ['https://chat.whatsapp.com/LwTTYgU5TuHApg9TygsbtX']
-global.packname = '𝗡𝗮𝗻𝗮𝘁-𝗕𝗢𝗧𝗭'
-global.author = '𝗡𝗮𝗻𝗮𝘁'
+global.packname = 'Nanat-BOTZ'
+global.author = 'Nanat'
 global.multiplier = 36 // The higher, The harder levelup
 global.sessionName = 'nanat' // The Session name behind the .json example is nayla.json
 global.mesreport = 50
-global.botname = '𝗡𝗮𝗻𝗮𝘁-𝗕𝗢𝗧𝗭'
+global.botname = 'Nanat-BOTZ'
 global.thumnail = ext.thum // It's hard to change if you don't get an error
 global.thum = ext.thum // Same as above
     global.mess = {
